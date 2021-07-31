@@ -1,0 +1,197 @@
+*{
+
+padding: 0px;
+margin: 0px;
+font-family: 'Roboto', sans-serif;
+
+
+
+}
+
+
+body{
+
+background : rgb(221, 221, 221);
+
+
+}
+
+#header{
+    width: 100%;
+    height: 100%;  
+    background : rgb(127, 134, 62);
+    
+
+}
+.encabezadoP{
+
+
+    font-size: 60px;
+    color: #ffffff;
+
+
+
+
+}
+
+
+#encabezado{
+
+    background : rgb(59, 59, 59);
+    text-align: center;
+    padding: 50px
+    
+}
+
+#nav ul{
+
+    list-style-type: none;
+
+    margin: 0px;
+    padding: 0px;
+    background: #12e281;        
+    overflow: hidden;
+
+}
+
+#nav li{
+
+
+float: left;
+
+
+}
+
+#nav li a{
+
+    display: block;
+    color: rgb(8, 8, 8);
+    font-size: 20px;
+    text-align: center;
+    padding: 16px 16px;
+
+
+}
+
+#container{
+
+    background : rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+#lateral{
+
+    background : rgb(187, 187, 187);
+    flex: 0.5;
+    border: 10px solid #fff;
+
+}
+
+
+
+
+#inf{
+
+    background : rgb(32, 151, 145);
+    flex: 1;
+
+
+}
+
+#inf:first-child{
+
+
+    flex: 2;
+    padding: 25px;
+    background-color: #ffff;
+    margin : 20px;
+    
+
+}
+    
+#inf div{
+
+
+    padding: 25px;
+    background-color: #ffff;
+    margin : 20px; 
+
+}
+
+
+#definition{
+
+    background : rgb(255, 255, 255);
+    border: 8px solid #fff;
+    text-align : justify;
+
+}
+
+#aplicacion{
+
+    background : rgb(255, 255, 255);
+    border: 8px solid #fff;
+
+}
+
+#version{
+
+    background : rgb(255, 255, 255);
+    border: 8px solid #fff;
+
+
+}
+
+#lateral ol li{
+
+
+    list-style-position: inside; 
+    
+    margin: 50px;
+
+    height: 20px;
+
+
+}
+
+
+.footer{
+
+    background: #fff;
+    text-align: center;
+
+
+
+}
+
+#titulo{
+
+text-align: center;
+
+}
+
+
+.ol{
+
+    text-align: center;
+    font-size: 25px;
+
+
+}
+
+.parrafos{
+
+font-size: 20px;
+
+
+
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
